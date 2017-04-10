@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-commentary'
+Plugin 'thoughtbot/vim-rspec'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -68,4 +69,3 @@ nmap <leader>s :w<cr>
 
 "Use space_w to close the file"
 nmap <leader>w :q<cr>
-nmap <leader>t :tabnew<cr>
