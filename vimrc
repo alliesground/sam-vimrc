@@ -9,6 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-dispatch'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -69,3 +70,11 @@ nmap <leader>s :w<cr>
 
 "Use space_w to close the file"
 nmap <leader>w :q<cr>
+
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>n :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+let g:rspec_command = "Dispatch rspec {spec}"
