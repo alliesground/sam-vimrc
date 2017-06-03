@@ -46,6 +46,7 @@ set guicursor+=a:blinkon0
 set backupdir=$TMPDIR//
 set directory=$TMPDIR//
 let g:netrw_localrmdir="rm -r" 
+set mouse=a
 
 "mapping space+k to open explorer
 let mapleader= "\<Space>"
