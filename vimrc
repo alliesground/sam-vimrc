@@ -11,6 +11,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-dispatch'
 Plugin 'bling/vim-airline'
+Plugin 'preservim/nerdtree'
 "Plugin 'altercation/vim-colors-solarized'
 
 "All of your Plugins must be added before the following line
