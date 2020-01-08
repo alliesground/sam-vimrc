@@ -86,3 +86,14 @@ let g:rspec_command = "Dispatch rspec {spec}"
 
 " Open NerdTree automatically when Vim starts
 autocmd vimenter * NERDTree
+
+" Mappgin Ctrl+n to open NerdTree
+map <C-n> :NERDTreeToggle<CR>
+
+" Close Vim if the only window left open is a NerdTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Default Arrow for NerdTree
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
