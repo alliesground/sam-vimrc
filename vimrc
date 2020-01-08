@@ -11,7 +11,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-dispatch'
 Plugin 'bling/vim-airline'
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -29,7 +29,6 @@ call vundle#end()            " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-execute pathogen#infect()
 filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
@@ -38,7 +37,7 @@ syntax on
 set t_Co=256
 let macvim_skip_colorscheme=2
 ":colorscheme CandyPaper
-:colorscheme solarized
+":colorscheme solarized
 set background=dark
 set number
 let g:netrw_liststyle=3 
