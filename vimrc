@@ -83,3 +83,6 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 let g:rspec_command = "Dispatch rspec {spec}"
+
+" Open NerdTree automatically when Vim starts
+autocmd vimenter * NERDTree
