@@ -30,6 +30,9 @@ call vundle#end()            " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" pathogen config
+execute pathogen#infect()
+
 filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
