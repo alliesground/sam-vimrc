@@ -12,6 +12,7 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-dispatch'
 Plugin 'bling/vim-airline'
 Plugin 'preservim/nerdtree'
+Plugin 'wadackel/vim-dogrun'
 "Plugin 'altercation/vim-colors-solarized'
 
 "All of your Plugins must be added before the following line
@@ -99,4 +100,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Default Arrow for NerdTree
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+
+colorscheme dogrun
 
