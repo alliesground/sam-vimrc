@@ -13,6 +13,7 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'bling/vim-airline'
 Plugin 'preservim/nerdtree'
 Plugin 'wadackel/vim-dogrun'
+Plugin 'valloric/youcompleteme'
 "Plugin 'altercation/vim-colors-solarized'
 
 "All of your Plugins must be added before the following line
